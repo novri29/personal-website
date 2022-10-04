@@ -1,0 +1,489 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	background-image: url("img/banner.png");
+	background-repeat: no-repeat;
+	height: 667px;
+}
+
+.banner i {
+	color: white;
+	font-size: 50pt;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.banner a {
+	font-family: Kalam;
+	font-size: 50pt;
+	text-decoration: none;
+	color: #fff;
+}
+
+.hi p {
+	float: right;
+	margin-right: 320px;
+	font-size: 48pt;
+	font-family: Mali;
+	color: #fcf7f7;
+	border-left: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+
+.garishi {
+	border: 2px solid #fff;
+	width: 93px;
+	margin-left: 610px;
+}
+
+.hello p {
+	padding-top: 110px;
+	margin-left: 615px;
+	font-size: 13pt;
+	font-family: Kalam;
+	color: #fff;
+}
+
+.about p {
+	margin-top: 100px;
+	text-align: center;
+	font-family: Righteous;
+	font-size: 	20pt;
+	color: #000;
+}
+
+.about2 p {
+	text-align: center;
+	font-family: Arial;
+	font-size: 	13pt;
+	color: #000;
+}
+
+.skillBar {
+	margin-top: 120px;
+	width: 100%;
+	padding : 20px;
+	background : #333;
+	box-sizing : border-box;
+}
+
+.skillgaris1 {
+	border: 2px solid #fff;
+	width: 145px;
+	margin-left: 1px;
+	border-radius: 10px;
+}
+.skillgaris2 {
+	border: 2px solid #fff;
+	width: 100px;
+	margin-top: 3px;
+	margin-left: 1px;
+	border-radius: 10px;
+}
+.skillgaris3 {
+	border: 2px solid #fff;
+	width: 60px;
+	margin-top: 3px;
+	margin-left: 1px;
+	border-radius: 10px;
+}
+
+.skillBar h1 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: Righteous;
+}
+
+.skillBox {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.skillBox p {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 0;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family:  Righteous;
+}
+
+.skillBox p:nth-child(2) {
+	float: right;
+	position: relative;
+	top: -25px;
+}
+
+.skill {
+	background: #535354;
+	padding: 2px;
+	box-sizing: border-box;
+	border: 1px solid #535354;
+	border-radius: 9px;
+}
+
+.skillPersen {
+	background: #fff;
+	width: 100%;
+	height: 10px;
+	border-radius: 9px;
+}
+
+.game {
+	margin-top: 80px;
+}
+
+.game h1 {
+	text-align: center;
+	font-family: Righteous;
+}
+
+.game2 {
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+.game3 {
+	position: relative;
+	width: 40%;
+	display: inline-block;;
+	height: 260px;
+	box-sizing: border-box;
+	letter-spacing: 2px;
+}
+.game3 img {
+	width: 50%;
+	filter: grayscale(95%);
+}
+
+.game3 img:hover {
+	filter: grayscale(0%);
+	transition: 0.5s;
+}
+
+.game3 h3 {
+	font-size: 20px;
+}
+
+.game3 p {
+	font-weight: bold;
+	font-family: Kalam;
+	font-size: 20pt;
+	margin-top: 40px;
+}
+
+.timeline {
+	background: #333;
+	height: 300px;
+	margin-top: 100px; 
+}
+
+.timeline h1 {
+	padding-top: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: Righteous;
+}
+
+.tlgaris1 {
+	border: 2px solid #fff;
+	width: 210px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.tlgaris2 {
+	border: 2px solid #fff;
+	width: 170px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.tlgaris3 {
+	border: 2px solid #fff;
+	width: 140px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+ol {
+	position: relative;
+	display: block;
+	margin: 100px;
+	height: 4px;
+	margin-top: 100px;
+	background: #fff;
+}
+ol::before,
+ol::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	display: block;
+	width: 0;
+	height: 0;
+  	border-radius: 10px;
+	border: 10px solid #fff;
+}
+ol::before {
+	left: -5px;
+}
+ol::after {
+	right: -10px;
+	border: 10px solid transparent;
+	border-right: 0;
+	border-left: 20px solid #fff;
+  	border-radius: 3px;
+}
+
+/* ---- Timeline elements ---- */
+li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 220px;
+	font: bold 14px arial;
+  	height: 50px;
+}
+li .diplome {
+  position: absolute;
+  top: -47px;
+  left: 36%;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial;
+}
+li .point {
+	content: "";
+	top: -4px;
+	left: 43%;
+	display: block;
+	width: 6px;
+	height: 6px;
+	border: 4px solid #fff;
+	border-radius: 10px;
+	background: #000;
+  	position: absolute;
+}
+li .description {
+  display: none;
+  background-color: #000;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  font-weight: normal;
+  z-index: 1;
+}
+.description::before {
+  content: '';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #f4f4f4;
+  position: absolute;
+  top: -5px;
+  left: 43%;
+}
+
+/* ---- Hover effects ---- */
+li:hover {
+	cursor: pointer;
+  	color: #fff;
+}
+li:hover .description {
+  display: block;
+}
+
+.portofolio h1 {
+	font-family: Righteous;
+	padding-top: 40px;
+	letter-spacing: 2px;
+	margin-left: 30px;
+}
+.garis1 {
+	border: 2px solid #000;
+	width: 280px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.garis2 {
+	border: 2px solid #000;
+	width: 200px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.garis3 {
+	border: 2px solid #000;
+	width: 160px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.portofolio a {
+	text-decoration: none;
+	color: #000;
+}
+.portofolio h5 {
+	padding-top: 40px;
+}
+
+.foto {
+	padding-top: 50px;
+}
+.foto2 {
+	margin-left: 100px;
+}
+
+.foto2 img {
+	padding: 1px;
+	filter: grayscale(95%);
+}
+
+.foto2 img:hover {
+	filter: grayscale(0%);
+	transition: 0.5s
+} 
+
+.contact {
+	background: #333;
+	height: 520px;
+	margin-top: 70px; 
+}
+
+.contactgaris1 {
+	border: 2px solid #fff;
+	width: 210px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.contactgaris2 {
+	border: 2px solid #fff;
+	width: 170px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.contactgaris3 {
+	border: 2px solid #fff;
+	width: 140px;
+	margin-top: 3px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+.contact h1 {
+	color: #fff;
+	margin-left: 30px;
+	font-family: Righteous;
+	letter-spacing: 2px;
+	padding-top: 20px;
+}
+
+.tel h3 , p {
+	color: #fff;
+	padding: 5px;
+}
+
+.tel {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.email h3 , p {
+	color: #fff;
+	padding: 5px;
+}
+
+.email {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.address h3 , p {
+	color: #fff;
+	padding: 5px;
+}
+
+.address {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.gariscontact1 {
+	border: 1.5px solid #fff;
+	border-radius: 9px;
+	width: 40%;
+}
+
+.tel p {
+	font-size: 15pt;
+	font-family: "Arial";
+}
+
+.email p {
+	font-size: 15pt;
+	font-family: "Arial";
+}
+
+.address p {
+	font-size: 15pt;
+	font-family: "Arial";
+}
+
+.map {
+	float: right;
+	margin-top: -435px;
+	margin-right: 40px;
+	border: 6px solid #000;
+	border-radius: 10px;
+}
+
+.footer {
+	height: 100px;
+	background: #232323;
+}
+
+.footer p {
+	font-family: "Arial";
+	padding-top: 20px;
+}
+
+.footer i {
+	color: #fff;
+	font-size: 16pt;
+	cursor: pointer;
+}
+
+.footer i:hover {
+	color: #ada9a9;
+	transition: 0.5s;
+}
+
+.gotop a {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #3d3b3b;
+	bottom: 40px;
+	right: 20px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+	border-radius: 9px;
+}
